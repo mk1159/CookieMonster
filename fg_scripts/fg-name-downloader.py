@@ -22,7 +22,7 @@ id_length = len(start_id)
 url_list = []
 num_itteration = (int(end_id) - int(start_id))
 
-base_url = 'https://film-grab.com/wp-content/uploads/'+ year +'/'+ month + '/' + prefix
+base_url = 'https://film-grab.com/wp-content/uploads/'+ year +'/'+ month + '/'
 
 for i in range(0,num_itteration):
 	curr_id = int(start_id) + i
