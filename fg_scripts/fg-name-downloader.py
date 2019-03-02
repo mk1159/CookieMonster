@@ -27,7 +27,7 @@ base_url = 'https://film-grab.com/wp-content/uploads/'+ year +'/'+ month + '/' +
 for i in range(0,num_itteration):
 	curr_id = int(start_id) + i
 	curr_id = str(curr_id)
-	curr_id = ('0' * (id_length - len(curr_id)) + curr_id)
+	curr_id = prefix + ('0' * (id_length - len(curr_id)) + curr_id)
 
 	url_list.append((base_url + curr_id + '.jpg', curr_id)) # has a url & the unique iq
 
