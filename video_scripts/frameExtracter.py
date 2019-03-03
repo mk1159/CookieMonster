@@ -3,9 +3,9 @@ import cv2
 pathOut = r"C:/Users/Me/Out/"
 count = 0
 counter = 1
-listing = os.listdir(r'/Users/hamzakhan/Documents/GitHub/cookieMonster/framePrack')
+listing = os.listdir(r'./cookieMonster/framePrack')  #change directory
 for vid in listing:
-    vid = r"/Users/hamzakhan/Documents/GitHub/cookieMonster/framesFromPrack"
+    vid = r"./cookieMonster/framesFromPrack" #change directory
     cap = cv2.VideoCapture(vid)
     count = 0
     counter += 1
