@@ -32,5 +32,12 @@ Secondly, our machine learning model. Our final machine learning model was const
 
 Thirdly, extended functionality. While this demo proves the concept with the criteria we have specified, further improvements can still be made. Some ideas that were discussed for the next steps include being able to choose an individual within the video clip supplied and produce a highlight reel of them alone. This would allow for greater user customizability and selection of our application. 
 
-## Other Notes
+## Who are we and why?
+We are a group of computer nerds from San Francisco State University. 
+
+We as in:
+* Mohammad Hamza Khan: 
+* Aashin Shazar: 
+* Aaron Jacobson: 
+
 ReelLife is a project that we came together to build during the 2019 hackathon at San Francisco State University. In this repository you may find two main folders, one consisting of all the rapid prototyped scripts and our methodology taken to ensure success and another containing our final approach.
